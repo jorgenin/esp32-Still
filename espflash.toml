@@ -1,0 +1,7 @@
+[connection]
+serial = '/dev/tty.usbmodem101'
+
+[flash]
+# mode = "QIO"
+size = "16MB"
+frequency = "80MHz"

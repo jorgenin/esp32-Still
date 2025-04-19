@@ -2,9 +2,9 @@
 name = "home-still"
 version = "0.1.0"
 authors = ["Jorge Nin <jorgenin@mit.edu>"]
-edition = "2021"
+edition = "2024"
 resolver = "2"
-rust-version = "1.77"
+rust-version = "1.85"
 
 [[bin]]
 name = "home-still"
@@ -25,6 +25,14 @@ experimental = ["esp-idf-svc/experimental"]
 [dependencies]
 log = "0.4"
 esp-idf-svc = { version = "0.51", features = ["critical-section", "embassy-time-driver", "embassy-sync"] }
+anyhow       = "1.0.98"
+shtcx        = "1.0.0"
+toml-cfg     = "0.2.0"
+wifi         = { path = "./common/lib/wifi" }
+embedded-svc = "0.28.1"
+esp-idf-sys = "0.36.1"
+
 
 [build-dependencies]
 embuild = "0.33"
+toml-cfg     = "0.2.0"
