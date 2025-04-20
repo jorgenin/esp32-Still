@@ -31,8 +31,15 @@ toml-cfg     = "0.2.0"
 wifi         = { path = "./common/lib/wifi" }
 embedded-svc = "0.28.1"
 esp-idf-sys = "0.36.1"
+esp-idf-hal = "0.45.2"
+url = "2.5.4"
+rgb-led = { path = "./common/lib/rgb-led" }
+rgb = "0.8.50"
 
 
 [build-dependencies]
 embuild = "0.33"
 toml-cfg     = "0.2.0"
+
+[[package.metadata.esp-idf-sys.extra_components]]
+remote_component = { name = "espressif/mdns", version = "1.2" }

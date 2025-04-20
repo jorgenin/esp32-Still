@@ -5,10 +5,10 @@ edition = "2021"
 authors = ["Sergio Gasquez <sergio.gasquez@gmail.com>"]
 
 [dependencies]
-anyhow      = "=1.0.95"
-esp-idf-svc = "=0.50.1"
-esp-idf-hal ={ version = "=0.45.0", features = ["rmt-legacy"] }
-log         = "=0.4.22"
+anyhow      = "=1.0.98"
+esp-idf-svc = "=0.51.0"
+esp-idf-hal ={ version = "=0.45.2", features = ["rmt-legacy"] }
+log         = "=0.4.27"
 rgb         = "0.8.29"
 
 [build-dependencies]
