@@ -31,7 +31,7 @@ toml-cfg     = "0.2.0"
 wifi         = { path = "./common/lib/wifi" }
 embedded-svc = "0.28.1"
 esp-idf-sys = "0.36.1"
-esp-idf-hal = "0.45.2"
+esp-idf-hal = {version = "0.45.2", features = ["adc-oneshot-legacy"]}
 url = "2.5.4"
 rgb-led = { path = "./common/lib/rgb-led" }
 rgb = "0.8.50"

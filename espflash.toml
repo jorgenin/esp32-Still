@@ -1,5 +1,5 @@
 [connection]
-serial = '/dev/tty.usbmodem101'
+serial = '/dev/tty.usbmodem2101'
 
 [flash]
 # mode = "QIO"
